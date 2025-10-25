@@ -5,7 +5,12 @@ on:
 
 jobs:
   build-arm:
-    runs-on: [self-hosted, ARM64, BredOS]
+    runs-on: ubuntu-24.04-arm
+    container:
+      image: bredos/bredos:latest
+      ports:
+        - 80
+      options:  --privileged 
 
     strategy:
       fail-fast: false
@@ -20,6 +25,7 @@ jobs:
 
         - name: Install dependencies
           run: |
+            init-docker
             sudo pacman -Sy --noconfirm --needed \
             arch-install-scripts bash dosfstools e2fsprogs erofs-utils libarchive libisoburn mtools squashfs-tools grub openssh
 
