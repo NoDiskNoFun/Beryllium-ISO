@@ -13,4 +13,4 @@ audio:x:995:bred
 users:x:985:bred
 nopasswdlogin:x:966:bred
 autologin:x:967:bred
-bred:x:1001:
+beryl:x:1001:

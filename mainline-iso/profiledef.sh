@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="BredOS-mainline"
-iso_label="BREDOS_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y-%m-%d)"
+iso_name="Beryllium OS-mainline"
+iso_label="BERYLLIUM_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y-%m-%d)"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
-iso_publisher="BredOS <https://bredos.org>"
-iso_application="BredOS Live/Rescue DVD"
+iso_publisher="Beryllium ORG <https://beryllium.gr>"
+iso_application="Beryllium OS Live/Rescue ISO"
 install_dir="arch"
 buildmodes=('iso')
 ## GRUB
@@ -29,8 +29,8 @@ file_permissions=(
     ["/usr/lib"]="0:0:755"
     ["/usr/bin"]="0:0:755"
     ["/usr"]="0:0:755"
-    ["/home/bred/.config/autostart/org.bredos.bakery.desktop"]="1001:1001:755"
-    ["/home/bred/Desktop/org.bredos.bakery.desktop"]="1001:1001:755"
-    ["/home/bred/"]="1001:1001:750"
+    ["/home/beryl/.config/autostart/org.bredos.bakery.desktop"]="1001:1001:755"
+    ["/home/beryl/Desktop/org.bredos.bakery.desktop"]="1001:1001:755"
+    ["/home/beryl/"]="1001:1001:750"
     ["/home"]="0:0:755"
 )
