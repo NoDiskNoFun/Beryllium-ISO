@@ -34,6 +34,7 @@ btop
 pipewire-pulse
 pipewire-alsa
 pipewire-jack
+beryllium-skel
 beryllium-keyring
 beryllium-logo
 beryllium-zram-defaults
@@ -41,8 +42,9 @@ beryllium-mirrorlist
 beryllium-nohang
 beryllium-news
 beryllium-sysreport
-beryllium-sysconfig
 beryllium-govctl
+beryllium-tools
+beryllium-sysconfig
 dosfstools
 e2fsprogs
 librewolf-bin

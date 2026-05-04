@@ -32,6 +32,7 @@ gvfs
 pipewire-pulse
 pipewire-alsa
 pipewire-jack
+beryllium-skel
 beryllium-keyring
 beryllium-logo
 beryllium-zram-defaults

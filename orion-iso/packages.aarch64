@@ -51,6 +51,11 @@ lshw
 expect
 inxi
 fastfetch
+beryllium-skel
+beryllium-keyring
+beryllium-logo
+beryllium-zram-defaults
+beryllium-mirrorlist
 beryllium-nohang
 beryllium-news
 beryllium-sysreport
