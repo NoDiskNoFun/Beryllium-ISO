@@ -15,12 +15,9 @@ btrfs-progs
 bluez
 bash
 bash-completion
-omb-skel
 sudo
 polkit
 bluez-utils
-#rock5b-post-install
-#f2fs-tools
 mesa
 libdrm
 bred-skel-default
@@ -37,7 +34,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -61,6 +57,17 @@ beryllium-sysreport
 beryllium-govctl
 beryllium-tools
 beryllium-sysconfig
+
+# ---------
+# Utilities
+# ---------
+
+nvme-cli
+gnome-disk-utillity
+inxi
+mesa-utils
+vulkan-tools
+gparted
 
 # ===
 # EFI

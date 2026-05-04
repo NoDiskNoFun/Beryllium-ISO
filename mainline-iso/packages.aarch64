@@ -5,7 +5,7 @@
 base
 base-devel
 yay
-iptables-nft
+iptables
 networkmanager
 network-manager-applet
 nano
@@ -16,12 +16,9 @@ btrfs-progs
 bluez
 bash
 bash-completion
-omb-skel
 sudo
 polkit
 bluez-utils
-#rock5b-post-install
-#f2fs-tools
 libdrm
 bred-skel-default
 uboot-tools
@@ -56,7 +53,6 @@ cpupower
 less
 lshw
 expect
-inxi
 fastfetch
 
 
@@ -96,6 +92,17 @@ linux-headers
 pv
 libbsd
 libmd
+
+# ---------
+# Utilities
+# ---------
+
+nvme-cli
+gnome-disk-utillity
+inxi
+mesa-utils
+vulkan-tools
+gparted
 
 # --------
 # Graphics
