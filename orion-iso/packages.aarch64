@@ -63,7 +63,7 @@ beryllium-sysconfig
 # ---------
 
 nvme-cli
-gnome-disk-utillity
+gnome-disk-utility
 inxi
 mesa-utils
 vulkan-tools
