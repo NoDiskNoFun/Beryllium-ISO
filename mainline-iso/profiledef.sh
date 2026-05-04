@@ -29,8 +29,8 @@ file_permissions=(
     ["/usr/lib"]="0:0:755"
     ["/usr/bin"]="0:0:755"
     ["/usr"]="0:0:755"
-    ["/home/beryl/.config/autostart/org.bredos.bakery.desktop"]="1001:1001:755"
-    ["/home/beryl/Desktop/org.bredos.bakery.desktop"]="1001:1001:755"
+    ["/home/beryl/.config/autostart/org.beryllium.bakery.desktop"]="1001:1001:755"
+    ["/home/beryl/Desktop/org.beryllium.bakery.desktop"]="1001:1001:755"
     ["/home/beryl/"]="1001:1001:750"
     ["/home"]="0:0:755"
 )
