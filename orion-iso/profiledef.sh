@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # shellcheck disable=SC2034
 
-iso_name="Beryllium OS-ORION-O6"
+iso_name="Beryllium-OS-ORION-O6"
 iso_label="BERYLLIUM_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y-%m-%d)"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 iso_publisher="Beryllium ORG <https://beryllium.gr>"
